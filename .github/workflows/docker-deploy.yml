@@ -24,7 +24,7 @@ jobs:
     - name: Build docker image
       run: |
           docker build -t simple-express .
-          docker tag simple-node lequangbao1/simple-express:latest
+          docker tag simple-express lequangbao1/simple-express:latest
     - name: Push to registry
       run: docker push lequangbao1/simple-express
 
