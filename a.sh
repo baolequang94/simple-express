@@ -1,0 +1,1 @@
+echo Run inside docker container successfully
