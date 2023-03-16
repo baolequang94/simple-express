@@ -29,5 +29,5 @@ jobs:
       - name: Run test inside docker
         uses: addnab/docker-run-action@v3
         with:
-          image: simple-express:latest
+          image: simple-express
           run: sh ./a.sh
